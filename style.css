@@ -1,0 +1,146 @@
+img.slide{
+    height: 800px;
+}
+
+.div1{
+   
+    height: 60px;
+    width: 60px;
+   
+    right: 0px;
+    top: 300px;
+}
+.div2{
+   
+    height: 60px;
+    width: 60px;
+   
+    right: 0px;
+    top: 385px;
+}
+.div3{
+   
+    height: 60px;
+    width: 60px;
+   
+    right: 0px;
+    top: 470px;
+}
+
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: blueviolet;
+    color: white;
+  }
+
+  @keyframes example {
+    0%   {background-color: gray;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+  
+  /* The element to apply the animation to */
+  #chang{
+    width: 100%;
+    height: 50px;
+    background-color: #3B5998;
+    animation-duration: 50s;
+    animation-name:example;
+    animation-iteration-count: infinite;
+  }
+
+  .amal{
+    padding-top: 7px;
+  }
+  .cardtext{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .amal{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: justify;
+  }
+
+  .lol1{
+    margin-left: 150px;
+  }
+
+  .lol2{
+    margin-left: 50px;
+  }
+  .lol3{
+    margin-left: 165px;
+  }
+
+
+
+
+
+.cont1{
+  margin-bottom: 500px;
+}
+
+
+
+.first p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: justify;
+  width: 700px;
+  font-size: medium;
+  margin-left: 280px;
+  
+  
+}
+.adi{
+  
+  width: 100%;
+  height: 80px;
+  padding-top: 12px;
+  background-color: #3B5998;
+  animation-duration: 50s;
+  animation-name:example;
+  animation-iteration-count: infinite;
+  
+}
+
+
+
+
