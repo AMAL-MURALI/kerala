@@ -40,63 +40,71 @@
       </div>
     </div>
   </nav>
-  <section class="vh-100 "
-  style="background-color: white;">
-  <div class="mask d-flex align-items-center h-100 gradient-custom-3">
-    <div class="container  h-100 ">
+  <section  class="vh-50  gradient-custom " >
+    <div class="container py-2 h-100 ">
       <div class="row d-flex justify-content-center align-items-center h-100">
-        <div class="col-12 col-md-9 col-lg-7 col-xl-6 ">
-          <div class="card" style="border-radius: 15px;">
-            <div class="card-body bg-black rounded-bottom rounded-top p-5">
-              <h2 class="text-uppercase text-center text-white mb-5">Create an account</h2>
-
-              <form >
-
-                <div class="form-outline mb-2">
-                  <input type="text" id="form3Example1cg" class="form-control form-control-lg" />
-                  <label class="form-label text-white " for="form3Example1cg">Your Name</label>
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+          <div class="card bg-dark text-white" style="border-radius: 1rem;">
+            <div class="card-body p-5 text-center">
+  
+              <div class="mb-md-5 mt-md-4 pb-5">
+                <form action=""onsubmit="return validate(),phonenumber(), password()">
+                  
+                <h2 class="fw-bold mb-2 text-uppercase">CREATE AN ACCOUNT</h2>
+                <br>
+                <div class="form-outline form-white mb-4">
+                  <input type="text" id="name" class="form-control form-control-lg"  >
+                  <label class="form-label" for="Name">Your Name</label>
                 </div>
-
-                <div class="form-outline mb-2">
-                  <input type="email" id="form3Example3cg" class="form-control form-control-lg" />
-                  <label class="form-label text-white" for="form3Example3cg">Your Email</label>
+  
+                <div class="form-outline form-white mb-4">
+                  <input type="" id="email" class="form-control form-control-lg" >
+                  <label class="form-label" for="email">Email</label>
+                  <label for="error" id="error"></label>
                 </div>
+                
 
-                <div class="form-outline mb-2">
-                  <input type="password" id="form3Example4cg" class="form-control form-control-lg" />
-                  <label class="form-label text-white" for="form3Example4cg">Password</label>
+                <div class="form-outline form-white mb-4">
+                  <input type="" id="typenumber" class="form-control form-control-lg"  />
+                  <label class="form-label" for="number">Phone number</label>
+                  <label for="error2" id="error2"></label>
                 </div>
-
-                <div class="form-outline mb-2">
-                  <input type="password" id="form3Example4cdg" class="form-control form-control-lg" />
-                  <label class="form-label text-white" for="form3Example4cdg">Repeat your password</label>
+  
+                <div class="form-outline form-white mb-4">
+                  <input type=""  id="pass" class="form-control form-control-lg passwordInput" >
+                  <label class="form-label" for="typePasswordX">Password</label>
+                  <label for="error1" id="error1"></label>
+                  <br>
+                  <span id="StrengthDisp" class="badge displayBadge">Weak</span>
+                  <br>
                 </div>
-
-                <div class="form-check d-flex justify-content-center mb-5">
-                  <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3cg" />
-                  <label class="form-check-label text-white" for="form2Example3g">
-                    I agree all statements in <a href="#!" class="text-body "><u class="text-white">Terms of service</u></a>
-                  </label>
+                
+                
+  
+                <button class="btn btn-outline-light btn-lg px-5" type="submit">Sign Up</button>
+  
+                <div class="d-flex justify-content-center text-center mt-4 pt-1">
+                  <a href="#!" class="text-white"><i class="fa fa-google fa-lg"></i></a>
+                  <a href="#!" class="text-white"><i class="fa fa-twitter fa-lg mx-4 px-2"></i></a>
+                  <a href="#!" class="text-white"><i class="fa fa-instagram fa-lg"></i></a>
                 </div>
-
-                <div class="d-flex justify-content-center">
-                  <button type="button"
-                    class="btn btn-success btn-block btn-lg gradient-custom-4 text-white">Register</button>
-                </div>
-
-                <p class="text-center  text-danger mt-3 mb-0">Have already an account? <a href="login.html"
-                    class="fw-bold  text-body"><u class="text-white text-decoration-none">Login here</u></a></p>
-
-              </form>
+                <br>
+                
+              <div>
+                <p class="mb-0 text-danger">Have already an account? <a href="login.html" class="text-white text-decoration-none fw-bold">log in</a>
+                </p>
+              </div>
+            </form>
+              </div>
             
-
+  
+  
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 <div class="div1 position-fixed "><a href="https://www.facebook.com/keralatourismofficial" class="fa fa-facebook"></a>
 </div>
   <div class="div2 position-fixed "><a href="https://twitter.com/keralatourism" class="fa fa-twitter"></a>
@@ -123,6 +131,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="js/bootstrap.js"></script>
+  <script src="signup.js"></script>
   
 </body>
 </html>
